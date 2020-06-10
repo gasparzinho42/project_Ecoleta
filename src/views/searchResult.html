@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da pesquisa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/styles/searchResult.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    
+    
+</head>
+<body>
+    <div id="search-result">
+        <div class="content">
+            <header>
+                <img src="Assets/icones/logo.svg" alt="Logomarca">
+                <a href="/">
+                    <span></span>    
+                    voltar para home
+                </a>
+            </header>
+            
+            
+            
+        </div>
+    </div>
+    <main>
+        
+        <h4>
+            {% if tamanho > 1  %}
+                <strong>{{tamanho}} pontos</strong> encontrados
+                
+
+            {%else%}
+                <strong>{{tamanho}} ponto</strong> encontrado
+                
+            {% endif %}
+            
+            
+            </h4>
+        <div class="cards">
+            {% for place in places %}
+                <div class= "card">
+                    <img src="{{place.image}}" alt="{{place.name}}">
+                    <h1>{{place.name}}</h1>
+                    <h3>{{place.items}}</h3>
+
+                    <p>
+                        {{place.city}}, {{place.state}}
+                        <br/>
+                        {{place.address}}
+                        <br/>
+                        
+                        {{place.number}}
+                    </p>
+
+                </div>
+            {% endfor %}
+            
+      
+        </div>
+        
+    </main>
+    
+    
+</body>
+</html>

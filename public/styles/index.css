@@ -1,0 +1,179 @@
+#page-home{
+    height: 100vh;
+    background: url('../Assets/icones/home-background.svg') no-repeat;
+    background-position: 35vw 15vh;
+   
+    
+}
+
+
+#page-home .content{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#page-home header{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-home header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+#page-home header a span{
+    display: flex;
+    margin-right: 9px;
+    background-image: url('../Assets/icones/log-in.svg');
+    height: 20px;
+    width: 20px;
+}
+#page-home main{
+    max-width: 560px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+#page-home main h1{
+    font-size: 54px;
+    
+}
+
+#page-home main p{
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#page-home main a{
+    background: var(--primary-color);
+
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    
+    margin-top: 40px;
+    transition: 400ms;
+    
+    
+
+    
+    
+}
+
+#page-home main a span{
+    width: 72px;
+    height: 72px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+    background-color: rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-home main a:hover{
+    transition: 400ms;
+    background-color: #2fb863;
+}
+#page-home main a span::after{
+    content: "";
+    background-image: url('../Assets/icones/search.svg');
+
+    height: 20px;
+    width: 20px;
+}
+
+#page-home main a strong{
+    flex: 1;
+    text-align: center;
+
+    color: white;
+    transition: 400ms;
+}
+#modal{
+    
+    position: fixed ;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(14, 10, 20, 0.918);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+}
+#modal form h2{
+    font-size: 56px;
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+#modal form h2 span{
+    background-image: url(../Assets/icones/x.svg);
+    height:10px;
+    width: 10px;
+    display: flex;
+    padding: 12px;
+    margin: 20px;
+    cursor: pointer;
+    
+    
+}
+#modal label{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin: 6px;
+}
+#modal input{
+    display: flex;
+    padding: 9px 50px;
+    border-radius: 8px;
+    height: 50px;
+    width: 400px;
+}
+#modal input[name = estado]{
+    margin-bottom: 10px;
+    
+}
+#modal button{
+    height: 30px;
+    width: 73px;
+    border-radius: 8px;
+    background-color: var(--verde-legal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#modal.hide{
+    display: none;
+} 
+#modal h4{
+    color: white;
+    margin-left: 6px;
+    opacity: 0.5;
+}

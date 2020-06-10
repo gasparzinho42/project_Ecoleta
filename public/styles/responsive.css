@@ -1,0 +1,376 @@
+/* iphone X em pé
+
+
+@media (height: 812px) and (min-width: 375px){
+    #page-home main h1 {
+        font-size: 48px;
+    }
+
+    #page-home main p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 24px;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+    }
+
+    #page-home main a{
+        margin-top: 84px ;
+    }
+    
+    
+}
+
+/* ipad em pé
+@media(height:1024px) and  (width: 768px){
+    #page-home {
+        background-position-y: 48vh;
+        background-position-x: 66vw;
+    }
+
+    #page-home main{
+        max-width: none;
+    }
+
+    #page-home main h1{
+        font-size: 51px;
+    }
+
+    #page-home main p{
+        font-size: 25px;
+     }
+
+     
+    #page-home main a{
+        max-width: 420px;
+        height: 81px;
+    }
+    #page-home main a span{
+        
+        height: 81px;
+    }
+
+    #page-home main a strong{
+        font-size: 22px;
+    }
+
+    #page-home header a{
+        font-size: 27px;
+        width: 420px ;
+    }
+
+    #page-home header a span {
+        width: 21px;
+        height: 19px;
+        margin-top: 7px;
+    }
+}
+/* ipad deitado 
+@media(height: 768px) and  (width: 1024px){
+    #page-home{
+        background-position-x: 29vw;
+        background-position-y: 33vh;
+    }
+
+    #page-home main p {
+        font-size: 20px;
+    }
+    #page-home main h1 {
+        font-size: 51px;
+    }
+      
+}
+/* ipad pro deitado 
+@media(height: 1024px) and (width: 1366px){
+    #page-home {
+        background-position-y: 50vh;
+        background-position-x: 28vw;
+    }
+    #page-home main h1 {
+        font-size: 54px;
+    }
+    #page-home main p {
+        font-size: 24px;
+    }
+    #page-home header {
+        font-size: 24px;
+        max-width: 1010px;
+        margin-top: 90px;
+        
+    }
+    #page-home main a strong {
+        font-size: 23px;
+    }
+
+}
+/* ipad pro em pé 
+@media(height: 1366px) and (width: 1024px){
+    #page-home {
+        background-position-y: 62vh;
+        background-position-x: 28vw;
+    }
+    page-home main h1 {
+        font-size: 68px;
+        width: 780px;
+    }
+    #page-home main p {
+        font-size: 26px;
+    }
+    #page-home header {
+        margin-top: 90px;
+    }
+
+    #page-home main a strong {
+        font-size: 21px;
+        
+    }
+
+}
+
+/*iphone X deitado
+@media(height: 375px) and (width: 812px){
+    #page-home {
+        height: 100%;
+        background-position-y: -62vh;
+        background-position-x: 72vw;
+    }  
+    #page-home main h1 {
+        margin-top: 10px;
+        font-size: 54px;
+    }
+} */
+@media (max-width: 900px) {
+
+    page-home main h1 {
+        font-size: 45px;
+    }
+
+    #page-home {
+        
+        background-position-x: -137%;
+        background-position-y: 102%;
+        
+    }
+    #page-home .content img{
+        margin-top: -31px;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+        height: 470px;
+    }
+    
+
+    #page-home header a {
+        position: fixed;
+        bottom: 20px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;     
+    }
+
+    #page-seach-results .cards img {
+        height: 250px;
+    }
+
+    #page-create-point .fieldgroup {
+        flex-direction: column;
+
+    }
+    
+    #page-create-point .fieldgroup .field + .field {
+        margin-left: 2px;
+    }
+
+    #page-create-point form .items-grid{
+        grid-template-columns: 1fr;
+    }
+    #page-create-point form input{
+        width: 100%;
+
+    }
+
+    #page-create-point form button{
+        width: 100%;
+
+    }
+
+    #page-create-point form legend span {
+        font-size: 12px;
+        color: var(--title-color);
+        margin-right: -37px;
+    }
+
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw ;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px ;
+    }
+}
+/*ipad deitado*/
+@media (min-width:1024px){
+    #page-home {
+        background-position-y: 240px;
+        background-position-x: 287px;
+    }
+    #page-home main h1{
+        font-size: 52px;
+    }
+    #page-home main p {
+        font-size: 24px;
+        width: 298px;
+    }
+}
+/*ipad em pé*/
+@media (min-height:1024px){
+    #page-home {
+        background-position-y: 445px;
+        background-position-x: 43px;
+    }
+    #page-home main h1 {
+        font-size: 52px;
+        width: 130%;
+    }
+    #page-home main p {
+        font-size: 24px;
+        width: 102%;
+        margin-left: 26px;
+    }
+    #page-home main {
+        align-items: center;
+        margin: 0px 0px 437px 0px;
+    }
+
+    #page-home main a {
+       
+        margin: 17px 0px 129px 0px;
+        
+    }
+
+    #page-home main p {
+        font-size: 24px;
+        width: 566px;
+        margin: 0;
+    }
+}
+/*diversos devices*/
+@media (max-width: 420px){
+    /* #page-home header a {
+        position: fixed;
+        bottom: 20px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    } */
+    
+    #page-home main h1 {
+        font-size: 45px;
+    }
+
+    #page-home main p {
+        font-size: 19px;
+    }
+    #page-home main a {
+        
+        margin: 18px;
+        
+    }
+
+    #page-home header a span {
+        width: 24px;
+    }
+
+    main .cards{
+        grid-template-columns: 1fr;
+    }
+    #search-result .content a{
+        font-size: 0;
+        position: fixed;
+        bottom: 87%;
+        left: 96%;
+        float: right;
+        transform: translateX(-50%);
+    }
+    #search-result .content span{
+        background-image: url(/Assets/icones/left-arrow-button.svg);
+        width: 20px;
+        height: 20px;
+    }
+
+    #page-create-point header a{
+        font-size: 0;
+        position: fixed;
+        bottom: 87%;
+        left: 91%;
+        float: right;
+        transform: translateX(-50%);
+    }
+    #page-create-point header a span{
+        background-image: url(/Assets/icones/left-arrow-button.svg);
+        width: 20px;
+        height: 20px;
+    }
+    #modal .searchPoints{
+        margin-left: 50px;
+    }
+    #modal input{
+        width: 80%;
+    }
+    #modal button{
+        width: 30%;
+    }
+    #modal form h2{
+        font-size: 47px;
+    }
+
+}
+/*iphone 5*/
+@media( max-height: 570px){
+    #page-home main h1 {
+        font-size: 41px;
+    }
+    #page-home main p {
+        font-size: 17px;
+        margin-top: 13px;
+    }
+
+    #page-home header a span {
+        width: 22px;
+    }
+
+    #page-home header a  {
+        width: 261px;
+    }
+    #page-create-point form input,
+    #page-create-point form select{
+        margin-left: -15px;
+    }
+    #page-create-point form{
+        padding:43px
+    }
+}
+/*consertar problema do teclado do celular*/
+@media (max-height: 200px){
+    #modal .searchPoints{
+        margin-bottom: 136px;
+    }
+}

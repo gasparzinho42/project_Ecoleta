@@ -1,0 +1,28 @@
+
+
+#modal{
+    position: fixed ;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(14, 10, 20, 0.918);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+#modal h1{
+    font-size: 66px;
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
