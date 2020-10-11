@@ -1,6 +1,14 @@
 # project_Ecoleta
 projeto desenvolvido em conjunto com a Next Level Week
 
+**to run on you Browser clone it, then run on the terminal:**
+``
+yarn start
+``
+
+*so easy :)*
+
+you need to sign up some points first
 # Preview
 
 ### landing-Page:
