@@ -1,7 +1,7 @@
 # project_Ecoleta
 projeto desenvolvido em conjunto com a Next Level Week
 
-**to run on you Browser clone it, then run on the terminal:**
+**to run on you Browser clone it, run yarn install then run yarn on the terminal:**
 ``
 yarn start
 ``
